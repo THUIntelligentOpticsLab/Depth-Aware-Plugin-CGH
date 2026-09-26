@@ -8,4 +8,4 @@ Ganzhangqin Yuan, and Zihan Geng.
 
 ## Code
 
-The source code will be released here.
+The source code will be released here soon.
