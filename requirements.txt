@@ -1,0 +1,13 @@
+# Direct dependencies, pinned to versions observed in the local lightning environment.
+# Reference Python: 3.8.18. For CUDA, install matching torch/torchvision builds first.
+torch==2.1.0
+torchvision==0.16.0
+pytorch-lightning==2.1.1
+tensorboard==2.14.0
+numpy==1.24.1
+Pillow==9.3.0
+imageio==2.32.0
+scikit-image==0.17.2
+pandas==2.0.3
+lpips==0.1.4
+einops==0.6.0

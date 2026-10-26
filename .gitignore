@@ -1,0 +1,47 @@
+# Python cache / build artifacts
+__pycache__/
+*.py[cod]
+*.so
+*.pyd
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+build/
+dist/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Training / experiment outputs
+CH5*/
+tb_logs*/
+lightning_logs/
+results*/
+test_results_sweep/
+checkpoints/
+*.ckpt
+*.pt
+*.pth
+events.out.tfevents.*
+
+# Local data links or machine-specific data drops
+data
+
+# Temp files
+tmp/
+*.tmp
+
+# IDE / editor settings
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
