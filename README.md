@@ -61,6 +61,8 @@ For GPU execution, install PyTorch 2.1.0 and torchvision 0.16.0 builds compatibl
 
 ## Data Preparation
 
+Download data from https://drive.google.com/file/d/1sIGnBrj9wzQox0cA4yhH9LUoqmi3Eiuw/view?usp=drive_link
+
 The default paths expect the following layout:
 
 ```text
