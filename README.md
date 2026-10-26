@@ -208,7 +208,6 @@ The exporter also creates `poh/all/` and `recon/all/`, but currently leaves them
 
 ## Current Implementation Notes
 
-- **Propagation signs:** training uses negative distances from −0.30 to −0.20 m, whereas the sweep script converts positive centimeter arguments directly to positive meters. Align the propagation sign conventions in the scripts before comparing sweep results with training validation results.
 - **Single-channel operation:** use `--channel 0`, `1`, or `2`. Although the CLI help mentions `3` for RGB, the current system parameters support only individual channels. Process channels separately for color experiments.
 - **Plug-in batch size:** dynamic convolution currently supports only batch size `1` for both training and inference.
 - **Optical settings:** wavelengths are 638 nm, 520 nm, and 450 nm for red, green, and blue, respectively; the SLM pixel pitch is 6.4 μm. Optical parameters, resolutions, and the training distance range are configured in `_init_system_params` in the training and inference scripts.
